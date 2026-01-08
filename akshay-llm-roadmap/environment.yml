@@ -1,0 +1,20 @@
+name: akshay-llm-roadmap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - transformers
+    - deepspeed
+    - wandb
+    - accelerate
+    - datasets
+    - pytest
+    - black
+    - flake8
+
+# Note: Installing `torch` via pip without specifying CUDA will install a CPU build.
+# For CUDA installs, follow torch install instructions: https://pytorch.org/get-started/locally/

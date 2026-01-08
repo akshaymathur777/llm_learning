@@ -1,0 +1,8 @@
+Summary,Issue Type,Description,Sprint,Labels,Parent
+"Sprint 1 - Setup environment","Story","Set up conda env, install tooling, and verify GPU","Sprint 1","roadmap",""
+"Work: Create conda env","Sub-task","Create and document the conda environment and install script","Sprint 1","work","Sprint 1 - Setup environment"
+"Side: Research Deepspeed options","Sub-task","Research GPU requirements, Deepspeed configs, and best practices","Sprint 1","side","Sprint 1 - Setup environment"
+"Smol: Verify GPU on infra","Sub-task","Run GPU checks on target machines and document results","Sprint 1","smol","Sprint 1 - Setup environment"
+"Learning: Read Smol course unit 1","Sub-task","Complete Smol course unit 1 and summarize takeaways","Sprint 1","learning","Sprint 1 - Setup environment"
+
+# Notes: Use Jira CSV importer. Ensure 'Issue Type' matches your Jira project's issue types. For sub-tasks, set Parent as the parent's Summary (or parent key) per your Jira import settings.
