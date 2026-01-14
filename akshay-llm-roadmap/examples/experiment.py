@@ -21,4 +21,6 @@ def run_experiment(log_to_wandb=False):
 
 
 if __name__ == "__main__":
-    print(run_experiment(log_to_wandb=False))
+    # Wrapper that uses the canonical implementation in the package
+    from akshay_llm_roadmap.examples.experiment import run_experiment as _run
+    print(_run(log_to_wandb=False))
