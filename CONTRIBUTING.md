@@ -8,6 +8,7 @@ Quickstart:
 - Install: `pip install -r requirements.txt`
 - Run tests: `pytest`
 - Run example: `python -c "from akshay_llm_roadmap.examples.experiment import run_experiment; print(run_experiment())"`
+- For W&B setup, see [akshay_llm_roadmap/docs/wandb_setup.md](akshay_llm_roadmap/docs/wandb_setup.md)
 
 Creating issues:
 - Use the JIRA board for sprints and stories
