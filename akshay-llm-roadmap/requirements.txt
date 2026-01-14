@@ -1,9 +1,0 @@
-torch
-transformers
-deepspeed
-wandb
-accelerate
-datasets
-pytest
-black
-flake8
