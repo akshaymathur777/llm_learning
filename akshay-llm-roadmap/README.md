@@ -1,5 +1,3 @@
-# akshay-llm-roadmap
-
 Roadmap scaffold for a 6-month AI engineering plan.
 
 Contents:
