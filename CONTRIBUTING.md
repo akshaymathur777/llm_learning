@@ -7,7 +7,7 @@ Quickstart:
 - Create venv: `python3 -m venv .venv && source .venv/bin/activate`
 - Install: `pip install -r requirements.txt`
 - Run tests: `pytest`
-- Run example: import and run the package implementation: `python -c "from akshay_llm_roadmap.examples.experiment import run_experiment; print(run_experiment())"`
+- Run example: `python -c "from akshay_llm_roadmap.examples.experiment import run_experiment; print(run_experiment())"`
 
 Creating issues:
 - Use the JIRA board for sprints and stories
