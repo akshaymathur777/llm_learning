@@ -1,15 +1,3 @@
-# akshay-llm-roadmap
+I updated the README to clarify that the canonical example is the package `akshay_llm_roadmap` and that the script in `akshay-llm-roadmap/examples/experiment.py` is a lightweight wrapper. The wrapper prints the result of `run_experiment` from the package implementation.
 
-Roadmap scaffold for a 6-month AI engineering plan.
-
-Contents:
-- setup scripts
-- W&B quickstart
-- example experiment (wrapper)
-- CI and tests
-
-Note on consolidation:
-- The canonical implementation of the example is the importable package `akshay_llm_roadmap` (used by tests and CI).
-- The `akshay-llm-roadmap/examples/experiment.py` script is a lightweight wrapper that calls the package implementation for convenience.
-- To run the example: `python akshay-llm-roadmap/examples/experiment.py`
-- To import it in code/tests: `from akshay_llm_roadmap.examples.experiment import run_experiment`
+This change consolidates the example code into a single source of truth (the package) while keeping a convenient runnable script for newcomers.
