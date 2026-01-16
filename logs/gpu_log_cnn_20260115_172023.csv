@@ -1,0 +1,6 @@
+timestamp, utilization.gpu [%], utilization.memory [%], memory.total [MiB], memory.free [MiB], memory.used [MiB]
+2026/01/15 17:20:24.768, 2 %, 4 %, 16376 MiB, 11141 MiB, 4921 MiB
+2026/01/15 17:20:25.885, 5 %, 4 %, 16376 MiB, 11141 MiB, 4921 MiB
+2026/01/15 17:20:26.487, 4 %, 4 %, 16376 MiB, 11142 MiB, 4920 MiB
+2026/01/15 17:20:27.589, 13 %, 6 %, 16376 MiB, 10509 MiB, 5553 MiB
+2026/01/15 17:20:28.691, 1 %, 4 %, 16376 MiB, 9303 MiB, 6759 MiB

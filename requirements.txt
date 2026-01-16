@@ -1,3 +1,7 @@
 pytest
 flake8
 wandb
+transformers
+accelerate
+tensorboard
+torch-tb-profiler
